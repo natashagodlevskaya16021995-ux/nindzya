@@ -391,7 +391,7 @@ function checkFinishGame(){
  if(progress>=PROGRESS_COUNT&&!finished){
   finished=true;
   document.getElementById('finish-message').innerHTML =
-  `<div>Отличная работа!<br>Баллы: ${progress} / ${PROGRESS_COUNT}<br><button onclick="location.reload()">Play again?</button></div>`;
+  `<div>Отличная работа!<br>Баллы: ${progress} / ${PROGRESS_COUNT}<br><button onclick="location.reload()">Играть снова?</button></div>`;
   document.getElementById('finish-message').style.display='block';
  }
 }
